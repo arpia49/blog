@@ -2,6 +2,8 @@
 layout: post
 title: I don't like USB3
 ---
+# I don't like USB3
+
 I should love USB3, right? Well... I learned that it makes interferences with ZigBee[1], Bluetooth [2] and Logitech dongles [3]. So, I'm in the way of forgetting running mi raspberry-pi-4 in an external drive.
 
 It looks like the speed running on USB3-HD will be higher than USB2 or micro-sd but as of today I have 37 ZigBee + 4 BLE configured devices that simply don't work anymore as expected.
