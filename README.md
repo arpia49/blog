@@ -6,3 +6,5 @@ Once I started playing with <a href="https://www.home-assistant.io">Home Assista
     </li>
   {% endfor %}
 </ul>
+
+May the force be with you!
