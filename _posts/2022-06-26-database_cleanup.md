@@ -13,7 +13,7 @@ In order to deal with all this, you need to know that you cna use recorder integ
 
 If you want to check what's in the database taking space you can use the SQLite web addon[^] with the following query (thanks to pacienciadigital[^4] blog):
 
-SELECT entity_id, COUNT(*) as count FROM states GROUP BY entity_id ORDER BY count DESC LIMIT 10
+`SELECT entity_id, COUNT(*) as count FROM states GROUP BY entity_id ORDER BY count DESC LIMIT 10`
 
 Days after you add the stuff you don't want to the recorder, they will be all gone (depending on the purge_keep_days configuration). If you want to speed things up, go to developer tools and check for the purge service, there you should be able to purge specific data.
 
