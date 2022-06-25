@@ -2,6 +2,8 @@
 layout: post
 title: How to clean up your Home Assistant database
 ---
+# How to clean up your Home Assistant database
+
 This one let's you keep your DB in a great shape.
 
 First you need to know that all your beautiful sensor updates takes space in your DB. Then, if running in a raspberry pi with micro SD Card, you should also know that micro SD cards are know for dieing after a number of writes[^1].
