@@ -11,7 +11,7 @@ So taking those two into consideration, do you really need to save all the times
 
 In order to deal with all this, you need to know that you cna use recorder integration[^2] to specify what do you want and for how long you want to keep it.
 
-If you want to check what's in the database taking space you can use the SQLite web addon[^] with the following query (thanks to pacienciadigital[^4] blog):
+If you want to check what's in the database taking space you can use the SQLite web addon[^3] with the following query (thanks to pacienciadigital[^4] blog):
 
 `SELECT entity_id, COUNT(*) as count FROM states GROUP BY entity_id ORDER BY count DESC LIMIT 10`
 
